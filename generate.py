@@ -31,7 +31,7 @@ if __name__ == "__main__" :
     prefix = args.prefix
 
     # Load the data to initialize a vectorizer
-    data_file = "rus_text.txt"
+    data_file = "data/rus_text.txt"
     with open(data_file, encoding='utf-8') as input_file:
         text = input_file.read()
 
